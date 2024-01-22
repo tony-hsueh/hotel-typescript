@@ -1,0 +1,31 @@
+.myBtn {
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  font-weight: 700;
+}
+
+.btn-outline {
+  background-color: var(--text-white);
+  border: 1px solid var(--primary-100);
+  color: var(--primary-100);
+  transition: .25s ease;
+}
+
+.btn-outline:hover {
+  background-color: var(--primary-10);
+  border: 1px solid var(--primary-120);
+  color: var(--primary-120);
+}
+
+.btn-solid {
+  background-color: var(--primary-100);
+  border: 1px solid var(--primary-100);
+  color: var(--text-white);
+  transition: .25s ease;
+}
+
+.btn-solid:hover {
+  background-color: var(--primary-120);
+  border: 1px solid var(--primary-120);
+  color: var(--text-white);
+}

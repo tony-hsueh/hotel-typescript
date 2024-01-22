@@ -9,10 +9,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* global color */
+  --primary-10: #F7F2EE;
+  --primary-40: #F1EAE4;
   --primary-100: #BF9D7D;
   --primary-120: #7B6651;
+  --secondary: #BE9C7C;
   --gray-40: #ECECEC;
   --gray-60: #909090;
+  --gray-80: #4B4B4B;
   --dark-bg: #140F0A;
   --text-white: white;
 }

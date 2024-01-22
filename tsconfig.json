@@ -23,7 +23,9 @@
     /* Aliases */
     "baseUrl": "./src",
     "paths": {
-      "@pages/*": ["pages/*"]
+      "@assets/*": ["assets/*"],
+      "@pages/*": ["pages/*"],
+      "@components/*": ["components/*"],
     }
   },
   "include": ["src"],

@@ -1,0 +1,244 @@
+.rooms_bg {
+  background-color: var(--primary-10);
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 12px;
+}
+
+.logo {
+  width: 110px;
+  height: auto;
+}
+
+.menu_mobile {
+  display: block;
+}
+
+.navbar_links {
+  display: none;
+}
+
+.banner {
+  height: 466px;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/typescript-hotel/%E8%A1%8C%E5%8B%95%E7%89%88/banner.png?raw=true');
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content_container h4,
+.content_container p {
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.content_container h4 {
+  font-size: 28px;
+}
+
+.content_container > h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-white);
+}
+
+.deco_line {
+  width: 2px;
+  height: 83px;
+  border-radius: 2px;
+  background: linear-gradient(to bottom, var(--primary-100), var(--text-white));
+  margin: 20px auto 40px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+section .subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: .5rem;
+  color: var(--gray-80);
+}
+
+section .title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: var(--primary-100);
+}
+
+/* room card */
+.roomCard {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  background-color: var(--text-white);
+  margin-bottom: 1.5rem;
+}
+
+.roomImg_container {
+  width: 100%;
+}
+
+.roomCard_body {
+  padding: 1rem;
+}
+
+.roomCard_body > .roomName {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: .5rem;
+  color: #000000;
+}
+
+.roomCard_body > .roomDesc {
+  font-size: 14px;
+  color: var(--gray-80);
+  margin-bottom: 1.5rem;
+}
+
+.feature_cards {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.feature_card {
+  width: 97px;
+  height: 97px;
+  border: 1px solid var(--primary-40);
+  border-radius: .5rem;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature_card:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.feature_card > p {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gray-80);
+}
+
+.gap_line {
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--secondary) 0%, var(--text-white) 100%);
+  margin-bottom: 1.5rem;
+}
+
+.card_bottom {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  margin-bottom: 0;
+  font-weight: 700;
+  color: var(--primary-100);
+}
+
+@media (min-width: 1200px) {
+  .navbar {
+    padding: 1.5rem 5rem;
+  }
+  .navbar_links {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: var(--text-white);
+  }
+
+  .navbar_links li {
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+
+  .logo {
+    width: 196px;
+    height: auto;
+  }
+
+  .menu_mobile {
+    display: none;
+  }
+
+  .content_container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .content_container h4{
+    font-size: 40px;
+  }
+
+  .content_container p {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  .content_container > h3{
+    margin-left: 5rem;
+  }
+
+  .deco_line {
+    width: 500px;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, var(--primary-100), var(--text-white));
+    margin-top: 40px;
+    margin-bottom: unset;
+  }
+
+  section {
+    padding: 120px 0 168px;
+  }
+  
+  section .subtitle {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  section .title {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+  }
+  .roomCard {
+    margin-bottom: 3rem;
+  }
+
+  .roomImg_container {
+    width: 60%;
+  }
+
+  .roomCard_body {
+    width: 40%;
+    padding: 40px;
+  }
+}

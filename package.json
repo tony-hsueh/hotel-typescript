@@ -11,10 +11,13 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "bootstrap": "^5.3.2",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.49.3",
-    "react-router-dom": "^6.21.3"
+    "react-router-dom": "^6.21.3",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
