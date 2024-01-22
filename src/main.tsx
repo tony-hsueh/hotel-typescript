@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 import Login from '@pages/Login'
 import RoomList from '@pages/RoomList'
+import Member from '@pages/Member'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: '/rooms',
     element: <RoomList />
+  },
+  {
+    path: '/member',
+    element: <Member />
   },
 ])
 

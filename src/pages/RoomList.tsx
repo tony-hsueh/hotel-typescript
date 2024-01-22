@@ -40,7 +40,7 @@ const RoomList = () => {
           <h3>客房旅宿</h3>
         </div>
       </div>
-      <section>
+      <section className={styles.rooms_list}>
         <Container>
           <p className={styles.subtitle}>房型選擇</p>
           <h3 className={styles.title}>各種房型，任您挑選</h3>
