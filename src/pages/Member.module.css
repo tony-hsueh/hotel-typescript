@@ -1,0 +1,119 @@
+.banner {
+  background: url('https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  height: 206px;   
+}
+
+.banner_container {
+  height: 100%;
+}
+
+.banner .content {
+  display: block;
+}
+
+.avatar {
+  width: 72px;
+}
+
+.avatar > img {
+  width: 100%;
+  height: auto;
+}
+
+.greet {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-top: 1rem;
+}
+
+section.member_tab {
+  background-color: #140F0A;
+  padding-top: 40px;
+}
+
+/* 修改密碼 */
+.edit_password_container {
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  background-color: white;
+}
+
+.edit_password_container > h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+} 
+
+label {
+  display: block;
+  margin-bottom: .5rem;
+  font-size: 14px;
+}
+
+.input {
+  font-size: 14px;
+}
+
+.input.input_readonly {
+  border-color: transparent;
+  outline-color: transparent;
+}
+
+.reset_password_btn {
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #bf9d7d;
+}
+
+.deco_line > img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .banner {
+    background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/typescript-hotel/%E6%A1%8C%E6%A9%9F%E7%89%88/hero.png?raw=true');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 384px;   
+  }
+
+  .banner .content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .avatar {
+    width: 144px;
+  }
+
+  .greet {
+    font-size: 48px;
+    margin-top: unset;
+    margin-left: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.member_tab {
+    padding-top: 80px;
+  }
+
+  .edit_password_container {
+    padding: 2.5rem;
+  }
+
+  .edit_password_container > h5 {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
