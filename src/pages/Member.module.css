@@ -44,6 +44,10 @@ section.member_tab {
   background-color: white;
 }
 
+.edit_password_container:first-child {
+  margin-bottom: 1.5rem;
+}
+
 .edit_password_container > h5 {
   font-size: 1.25rem;
   font-weight: 700;
@@ -75,6 +79,122 @@ label {
 .deco_line > img {
   width: 100%;
   height: auto;
+}
+
+/* 訂單 */
+.order_card {
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.order_card > p:nth-child(1) {
+  color: #4B4B4B;
+  font-size: 14px;
+  margin-bottom: .5rem;
+}
+
+.order_card > p:nth-child(2) {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.room_img > img {
+  width: 100%;
+  height: auto;
+  border-radius: .5rem;
+}
+
+.room_img {
+  margin-bottom: 1.5rem;
+}
+
+.order_info {
+  display: flex;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.order_info > div:nth-child(1) { 
+  border-right: 1px solid #909090;
+  padding-right: 1rem;
+}
+
+.order_info > div:nth-child(2) {
+  padding-left: 1rem;
+}
+
+.check_in_time,
+.check_out_time {
+  position: relative;
+  padding: 1.5px 1rem;
+  margin-bottom: .5rem;
+  font-size: 14px;
+  font-weight: 700;
+  color: #4B4B4B;
+}
+
+.check_in_time::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  border-radius: 4px;
+  background-color: #bf9d7d;
+}
+.check_out_time::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  border-radius: 4px;
+  background-color: #909090;
+}
+
+.room_price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4B4B4B;
+  margin-top: 1.5rem;
+}
+
+.divide_line {
+  margin: 1.5rem;
+}
+
+.room_offer_card {
+  border: 1px solid #ECECEC;
+  border-radius: .5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* 元件用 */
+.deco_line_title {
+  position: relative;
+  padding: 1.5px 1rem;
+  margin-bottom: .5rem;
+  font-size: 14px;
+  font-weight: 700;
+  color: #4B4B4B;
+}
+
+.deco_line_title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  border-radius: 4px;
+  background-color: #bf9d7d;
 }
 
 @media (min-width: 992px) {

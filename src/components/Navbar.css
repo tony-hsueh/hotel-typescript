@@ -1,4 +1,4 @@
-.navbar {
+.my-navbar {
   background-color: var(--dark-bg);
   display: flex;
   justify-content: space-between;
@@ -19,8 +19,34 @@ nav > .logo {
   display: none;
 }
 
+/* modal */
+.navbar-mobile.modal-body {
+  position: relative;
+  background-color: var(--dark-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar-links--mobile > a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--text-white);
+  margin-bottom: 1rem;
+}
+
+.navbar-links--mobile > a:last-child {
+  margin-bottom: 0;
+  background-color: var(--primary-100);
+  border-radius: .5rem;
+}
+
 @media (min-width: 1200px) {
-  .navbar {
+  .my-navbar {
     padding: 1.5rem 5rem;
   }
 
@@ -30,6 +56,7 @@ nav > .logo {
     align-items: center;
     list-style-type: none;
     color: var(--text-white);
+    margin-bottom: 0;
   }
 
   .menu li {

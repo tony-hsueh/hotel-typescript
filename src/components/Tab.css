@@ -1,0 +1,37 @@
+.profile-tab.nav-tabs .nav-link {
+  background-color: transparent;
+  font-size: 14px;
+  color: white;
+  border: none;
+  position: relative;
+}
+
+.profile-tab.nav-tabs .nav-link.active {
+  background-color: transparent;
+  color: #BF9D7D;
+  border: none;
+}
+
+.profile-tab.nav-tabs .nav-link:hover {
+  border: none;
+  color: #BF9D7D;
+}
+
+.profile-tab.nav-tabs .nav-link.active::after {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 4px;
+  border-radius: 4px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #BF9D7D;
+}
+
+#profile-tabpane-info.active,
+#profile-tabpane-order.active {
+  background-color: transparent;
+  color: unset;
+  padding: 40px 0;
+}
